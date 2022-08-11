@@ -1,0 +1,23 @@
+{
+  "name": "schawnbots",
+  "main": "ecosystem.config.js",
+  "scripts": {
+ "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2-runtime start ecosystem.config.js --env production"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "chalk": "^4.1.0",
+    "discord-logs": "^1.8.2",
+    "discord.js": "^12.5.1",
+    "moment": "^2.29.1",
+    "pm2": "^5.1.1",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.32",
+    "mongoose": "^5.11.11",
+    "fs": "0.0.1-security",
+    "pretty-ms": "^7.0.1",
+    "request": "^2.88.2",
+    "string-table": "^0.1.5"
+  }
+}
